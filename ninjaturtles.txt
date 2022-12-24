@@ -1,0 +1,5 @@
+Home-Elxan
+Artist-Ruslan
+User-Seymur
+Playlist-Araz
+Login,Register,About-Fateh
