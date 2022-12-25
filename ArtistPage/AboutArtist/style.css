@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+main {
+    margin: 5vh 0 0vh 0vw;
+}
+h1 {
+    margin: 1rem;
+}
+
+.banner{
+    height: 400px;
+    background-image: url(images/retro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0px 0px 300px #4D3896;
+    display: flex;
+    align-items: flex-end;
+    border-radius:5px;
+}
+
+.likedImg{
+    margin: 2rem;
+    width: 180px;
+    border-radius:5px;
+    box-shadow: 1px 1px 100px black;
+}
+
+.likedHead{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.likedOne{
+    font-size: 5rem;
+    letter-spacing: -3px;
+    font-weight: 800;
+}
+
+.likedTwo{
+    font-weight: bold;
+}
+
+.song, .tableHead{
+    display: grid;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+.song:hover > .songName{
+    text-decoration: underline;
+}
+
+
+.songName{
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+
+.song:hover{
+    cursor: pointer;
+    background-color: rgba(1000, 1000, 1000, 0.15);
+}
+
+.cover{
+    width: 50px;
+    border-radius:5px;
+    justify-self: center;
+}
+
+.tableHead{
+    margin: 3rem 1rem 1rem 1rem;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
